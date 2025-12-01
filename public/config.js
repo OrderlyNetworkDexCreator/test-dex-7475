@@ -40,5 +40,5 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_ANALYTICS_SCRIPT": "",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "Germany,United States,Albania,Taiwan",
-  "VITE_WHITELISTED_IPS": ""
+  "VITE_WHITELISTED_IPS": "79.253.150.0/8"
 };
