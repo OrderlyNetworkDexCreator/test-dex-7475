@@ -3,13 +3,13 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 60 100 255;
-  --oui-color-primary-light: 100 140 255;
-  --oui-color-primary-darken: 20 60 200;
+  --oui-color-primary: 176 132 233;
+  --oui-color-primary-light: 213 190 244;
+  --oui-color-primary-darken: 25 56 72;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 90 150 255;
-  --oui-color-link-light: 130 170 255;
+  --oui-color-link: 189 107 237;
+  --oui-color-link-light: 217 152 250;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
@@ -53,11 +53,11 @@
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 30 70 200;
-  --oui-gradient-primary-end: 60 100 255;
+  --oui-gradient-primary-start: 40 0 97;
+  --oui-gradient-primary-end: 189 107 237;
 
-  --oui-gradient-secondary-start: 40 80 200;
-  --oui-gradient-secondary-end: 100 140 255;
+  --oui-gradient-secondary-start: 81 42 121;
+  --oui-gradient-secondary-end: 176 132 233;
 
   --oui-gradient-success-start: 1 83 68;
   --oui-gradient-success-end: 41 223 169;
@@ -66,7 +66,10 @@
   --oui-gradient-danger-end: 245 97 139;
 
   --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 60 100 255;
+  --oui-gradient-brand-end: 159 107 225;
+  --oui-gradient-brand-stop-start: 6.62%;
+  --oui-gradient-brand-stop-end: 86.5%;
+  --oui-gradient-brand-angle: 17.44deg;
 
   --oui-gradient-warning-start: 152 58 8;
   --oui-gradient-warning-end: 255 209 70;
@@ -95,3 +98,36 @@ html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
 }
+
+.orderly-app-container,
+.orderly-app-container *,
+.orderly-app-container *::before,
+.orderly-app-container *::after {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* AI Fine-Tune Overrides */
+.oui-box.oui-p-3.oui-rounded-2xl { 
+  background-color: rgb(14 13 18) !important; 
+  border-color: rgba(255 255 255 / 0.15); 
+  box-shadow: 0 0 15px rgba(176 132 233 / 0.1); 
+  backdrop-filter: blur(8px); 
+} 
+
+.oui-box.oui-p-3.oui-rounded-2xl .oui-button.oui-bg-primary-darken { 
+  background: linear-gradient(135deg, rgb(176 132 233) 0%, rgb(142 82 219) 100%); 
+  color: rgb(255 255 255); 
+  border: 1px solid rgba(176 132 233 / 0.3); 
+  transition: all 0.2s ease; 
+} 
+
+.oui-box.oui-p-3.oui-rounded-2xl .oui-button.oui-bg-primary-darken:hover { 
+  background: linear-gradient(135deg, rgb(142 82 219) 0%, rgb(113 38 169) 100%); 
+  box-shadow: 0 0 0 2px rgba(176 132 233 / 0.3); 
+} 
+
+.oui-box.oui-p-3.oui-rounded-2xl .oui-button.oui-bg-base-4 { 
+  background-color: rgb(57 52 74) !important; 
+  background-image: none !important; 
+  color: rgb(176 132 233); 
+  border: 1px solid rgba(176 132 233 / 0
